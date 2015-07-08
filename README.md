@@ -18,3 +18,5 @@ The current list of templates is:
 9. js
 10. front-end
 11. kids
+12. python
+13. ios
