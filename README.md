@@ -1,7 +1,9 @@
-# `learn generate` Templates
+# `learn new` Templates
 
 This repo will contain the canonical list of Learn.co template types
-that will be available to the `learn generate` command.
+that will be available to the `learn new` command.
+
+Usage: `learn new name-of-lab -t template-name`
 
 ## Templates
 
