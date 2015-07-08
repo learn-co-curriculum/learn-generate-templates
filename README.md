@@ -1,5 +1,7 @@
 # `learn new` Templates
 
+`gem install learn-co` to install the Learn gem.
+
 This repo will contain the canonical list of Learn.co template types
 that will be available to the `learn new` command.
 
