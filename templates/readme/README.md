@@ -20,5 +20,4 @@ Destroy now we can teach dogs to do anything link drop tables lab The Gucci bund
 
 ## Resources
 
-* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack
-exchange](http://www.stackexchange.com/questions/123)
+* [Stack Exchange](http://www.stackexchange.com) - [Some Question on Stack Exchange](http://www.stackexchange.com/questions/123)
