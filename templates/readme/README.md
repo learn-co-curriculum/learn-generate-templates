@@ -1,9 +1,3 @@
----
-tags:
-level:
-languages:
-resources:
----
 
 ## Objectives
 
