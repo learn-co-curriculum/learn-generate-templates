@@ -18,9 +18,10 @@ The current list of templates is:
 5. rake
 6. rack
 7. sinatra-classic
-8. sinatra-mvc
-9. js
-10. front-end
-11. kids
-12. python
-13. ios
+8. sinatra-classic-db
+9. sinatra-mvc
+10. js
+11. front-end
+12. kids
+13. python
+14. ios
