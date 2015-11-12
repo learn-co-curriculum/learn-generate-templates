@@ -1,9 +1,4 @@
----
-tags:
-level:
-languages: 
-resources: 
----
+
 
 ## Kids Lab Template
 
