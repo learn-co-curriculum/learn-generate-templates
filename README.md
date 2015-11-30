@@ -11,17 +11,24 @@ Usage: `learn new name-of-lab -t template-name`
 
 The current list of templates is:
 
-1. fundamental-ruby
+1. activerecord
 2. command-line
-3. sql
-4. activerecord
-5. rake
-6. rack
-7. sinatra-classic
-8. sinatra-classic-db
-9. sinatra-mvc
-10. js
-11. front-end
-12. kids
-13. python
-14. ios
+3. front-end
+4. fundamental-ruby
+5. ios
+6. js
+7. kids
+8. python
+9. rack
+10. rake
+11. readme
+12. sinatra-classic-db
+13. sinatra-classic
+14. sinatra-mvc
+15. sql
+
+
+
+
+
+
