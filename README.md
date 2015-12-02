@@ -32,3 +32,5 @@ The current list of templates is:
 
 
 
+
+<a href='https://learn.co/lessons/learn-generate-templates' data-visibility='hidden'>View this lesson on Learn.co</a>
