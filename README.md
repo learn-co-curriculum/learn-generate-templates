@@ -26,11 +26,3 @@ The current list of templates is:
 13. sinatra-classic
 14. sinatra-mvc
 15. sql
-
-
-
-
-
-
-
-<a href='https://learn.co/lessons/learn-generate-templates' data-visibility='hidden'>View this lesson on Learn.co</a>
