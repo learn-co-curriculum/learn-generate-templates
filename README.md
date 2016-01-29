@@ -26,3 +26,5 @@ The current list of templates is:
 13. sinatra-classic
 14. sinatra-mvc
 15. sql
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-generate-templates' title='learn new Templates'>learn new Templates</a> on Learn.co and start learning to code for free.</p>
