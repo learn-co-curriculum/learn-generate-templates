@@ -12,7 +12,7 @@ warnings_as_errors: false
 enable_static_analyzer: true
 indentation_level: 4
 use_tabs: false
-use_cocoapods: true
+dependency_managers: cocoapods
 strict_prompts: false
 enable_settings: false
 
