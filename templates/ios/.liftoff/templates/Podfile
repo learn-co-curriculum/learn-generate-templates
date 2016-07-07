@@ -2,16 +2,33 @@ source 'https://github.com/CocoaPods/Specs'
 
 platform :ios, '<%= deployment_target %>'
 
-# Add Application pods here
+# Uncomment this line if you use Swift
+# use_frameworks!
 
-
-target :unit_tests, :exclusive => true do
-  inhibit_all_warnings!
-  link_with '<%= test_target_name %>'
-
-  pod 'Specta', '~> 1.0'
-  pod 'Expecta', '~> 1.0'
-  pod 'OCMockito', '~> 1.0'
-  pod 'OHHTTPStubs', '~> 4.0'
-  pod 'Swizzlean', '~> 0.2'
+target '<%= project_name %>' do
+  # Application Pods
 end
+
+abstract_target :unit_tests do
+  target '<%= test_target_name %>'
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'OCMock'
+  pod 'OHHTTPStubs'
+end
+
+<% if enable_settings && dependency_manager_enabled?("cocoapods") %>
+# Copy acknowledgements to the Settings.bundle
+
+post_install do | installer |
+  require 'fileutils'
+
+  pods_acknowledgements_path = 'Pods/Target Support Files/Pods/Pods-Acknowledgements.plist'
+  settings_bundle_path = Dir.glob("**/*Settings.bundle*").first
+
+  if File.file?(pods_acknowledgements_path)
+    puts 'Copying acknowledgements to Settings.bundle'
+    FileUtils.cp_r(pods_acknowledgements_path, "#{settings_bundle_path}/Acknowledgements.plist", :remove_destination => true)
+  end
+end
+<% end %>
