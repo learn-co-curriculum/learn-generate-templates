@@ -19,7 +19,7 @@ before(function(done) {
 
   jsdom.env(html, [], {
     src: babelResult.code,
-    virtualConsole: jsdom.createVirtualConsole().sendTo(console)
+    // virtualConsole: jsdom.createVirtualConsole().sendTo(console)
   }, (err, window) => {
     if (err) {
       return done(err);
